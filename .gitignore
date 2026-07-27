@@ -1,0 +1,152 @@
+#################################
+# IntelliJ IDEA
+#################################
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDEA workspace
+workspace.xml
+*.suo
+
+
+#################################
+# Maven
+#################################
+
+# 编译产物
+target/
+
+# Maven wrapper（如果不使用可忽略）
+# .mvn/
+
+# Maven release
+release.properties
+
+
+#################################
+# Java
+#################################
+
+*.class
+*.jar
+*.war
+*.ear
+
+# Java 编译缓存
+out/
+
+
+#################################
+# Spring Boot
+#################################
+
+# 本地配置
+application-local.yml
+application-local.yaml
+application-local.properties
+
+application-dev.yml
+application-dev.yaml
+application-dev.properties
+
+# 生产环境敏感配置
+application-prod.yml
+application-prod.yaml
+
+# 环境变量
+.env
+.env.*
+
+
+#################################
+# Logs
+#################################
+
+*.log
+logs/
+
+spring.log
+
+
+#################################
+# Test
+#################################
+
+surefire-reports/
+failsafe-reports/
+test-output/
+
+
+#################################
+# Database
+#################################
+
+# H2
+*.db
+*.mv.db
+
+# SQLite
+*.sqlite
+*.sqlite3
+
+# Redis
+dump.rdb
+
+
+#################################
+# Upload files
+#################################
+
+uploads/
+upload/
+files/
+
+
+#################################
+# OS
+#################################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+#################################
+# VS Code
+#################################
+
+.vscode/
+
+
+#################################
+# Temporary files
+#################################
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+
+#################################
+# Docker
+#################################
+
+docker-compose.override.yml
+
+
+#################################
+# Frontend (如果Spring Boot带Vue/React)
+#################################
+
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
