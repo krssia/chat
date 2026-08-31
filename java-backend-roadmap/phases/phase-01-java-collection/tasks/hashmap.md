@@ -1,85 +1,79 @@
 # Task: HashMap
 
-## Objective
+## 学习目标
 
-Understand the design, usage and core implementation ideas of Java HashMap.
+理解 Java HashMap 的使用方式、核心设计思想和底层实现原理。
 
-## Learning Goals
+## 需要掌握
 
-After finishing this task, you should understand:
+完成任务后，需要能够解释：
 
-- Map key-value model
-- hash concept
-- hash collision handling
-- HashMap internal structure
-- resize mechanism
-- equals and hashCode relationship
+- Map 键值模型
+- hash 的作用
+- hash 冲突产生原因
+- HashMap 的数据结构
+- JDK8 中链表转红黑树的原因
+- 扩容机制
+- equals 与 hashCode 的关系
+- HashMap 为什么不是线程安全的
 
-## Learning Path
+## 学习步骤
 
-### Level 1: Usage
+### 第一阶段：使用
 
-Learn:
+学习：
 
-- Map interface
-- put/get/remove
-- common usage scenarios
+- Map 接口常用方法
+- put/get/remove 使用场景
+- 常见业务中的 Map 使用
 
-### Level 2: Internal Principle
+实践：
 
-Learn:
+编写简单示例，熟悉 HashMap 基本操作。
 
-- array + linked list structure
-- JDK8 treeification
-- red-black tree
-- load factor
-- expansion
+### 第二阶段：原理
 
-### Level 3: Source Reading
+学习：
 
-Focus on:
+- 数组 + 链表结构
+- hash 定位过程
+- 哈希冲突处理
+- 负载因子和扩容
+- JDK8 红黑树优化
+
+实践：
+
+画出 HashMap 存储结构，并模拟一次 put 流程。
+
+### 第三阶段：源码理解
+
+阅读 OpenJDK HashMap 源码，重点关注：
 
 - put()
 - get()
 - resize()
 
-Do not memorize source code. Understand why it is designed this way.
+目标不是背源码，而是理解设计选择。
 
-## Resources
+## 实践任务
 
-### Official
+创建 hashmap-demo：
 
-- Java HashMap API documentation
-- OpenJDK HashMap source code
+1. 基础增删改查
+2. 自定义对象作为 key
+3. equals/hashCode 实验
+4. hash 冲突实验
+5. 扩容过程观察
 
-### Blog
+## 思考问题
 
-Resources should be added after verification. Prefer high quality technical articles and source analysis.
+完成后回答：
 
-### Video
+1. 为什么 HashMap 查询速度快？
+2. hash 冲突有哪些解决方式？
+3. 为什么 equals 和 hashCode 必须同时正确实现？
+4. 为什么 JDK8 使用红黑树优化？
 
-When using videos, record:
+## 完成标准
 
-- video name
-- author/UP
-- chapters to watch
-- learning purpose
-
-## Practice
-
-Create hashmap-demo:
-
-1. Basic HashMap operations
-2. Custom object as key
-3. equals/hashCode experiment
-4. Hash collision experiment
-
-## Completion Criteria
-
-You can explain:
-
-- Why HashMap is fast
-- How hash collision is solved
-- Why equals/hashCode matter
-- Why JDK8 introduced red-black tree
-- Why HashMap is not thread-safe
+能够独立向别人解释 HashMap 的工作流程，并完成实践代码。
