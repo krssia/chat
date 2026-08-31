@@ -90,14 +90,14 @@ Additional rules for this learner:
 
 ### Phase 0
 Topic: 习惯与现状盘点
-Status: Next
+Status: In Progress
 
 Goal:
-Build a minimum daily learning habit and inventory the learner's current work stack and weak points.
+Build a minimum daily learning habit and inventory the learner's current work stack and weak points. Complete this quickly and move to Phase 1.
 
 ### Phase 1
 Topic: Java 核心与集合
-Status: In Progress
+Status: Next
 
 Goal:
 Independently complete collection tasks and explain core collection mechanisms.
@@ -154,15 +154,16 @@ Completed:
 - Phase learning model design
 - Phase 1 collection task docs created
 - Roadmap v4 (Server main + Agent side) designed
+- Phase 0 task created
 
 Current Phase:
-Phase 1 - Java 核心与集合
+Phase 0 - 习惯与现状盘点
 
 Next Tasks:
-1. Build daily minimum learning habit
-2. Complete HashMap task (notes / demo / review)
-3. Start ArrayList and HashSet tasks
-4. Update progress status after each milestone
+1. Complete Phase 0: work stack inventory
+2. Complete Phase 0: weak point list
+3. Confirm minimum daily learning habit
+4. Enter Phase 1 and start HashMap task
 
 ---
 
