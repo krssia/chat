@@ -1,66 +1,162 @@
 # Java Backend Roadmap Context
 
-## 当前身份
+> This file is used to help AI quickly understand this repository, current learning plan, progress, and continue generating the next learning phase.
 
-Java 后端新人，已经进入开发岗位。
+## Repository Purpose
 
-特点：
+This repository is a personal Java backend growth roadmap.
 
-- 有真实开发经验
-- 使用过 Java 后端技术栈
-- 需要提升独立编码和理解能力
-- 避免长期依赖 AI 生成代码
+The goal is not only to store notes, but to record a long-term learning process:
 
-## 学习目标
+Theory → Demo → Modification → Summary → Practice
 
-从：
+AI should use this file as the first context when continuing work on this repository.
 
-能够完成开发任务
+---
 
-提升到：
+## User Background
 
-能够理解、设计、实现和优化代码。
+Current identity:
 
-## 长期方向
+Java backend junior developer.
 
-基础方向：
+Situation:
 
-- Java Backend
+- Already entered the software development industry.
+- Has participated in real development tasks.
+- Has experience with common Java backend technologies.
+- Needs to strengthen fundamentals and independent coding ability.
+- Uses AI as an assistant, but the goal is to reduce dependence on AI-generated black-box code.
 
-未来方向：
+This roadmap should NOT:
 
-1. Server Development
-   - TCP
-   - Netty
-   - RPC
-   - 高性能服务
+- Be tightly coupled with current work projects.
+- Continue old projects as the main learning material.
+- Become a simple CRUD tutorial.
 
-2. AI Agent Development
-   - LLM
-   - RAG
-   - Tool Calling
-   - Agent Framework
+---
 
-## 学习原则
+## Long-term Direction
 
-- 不绑定当前工作
-- 不依赖旧项目
-- 不采用严格 Day 制
-- 以完整模块为单位
-- 理论结合 Demo
+Main direction:
 
-## 当前状态
+Java Backend Development
 
-Current Phase:
+Future specialization options:
 
-Phase 01 - Java Collection
+### Server Development
+
+Focus:
+
+- Computer networking
+- TCP/UDP
+- Netty
+- RPC
+- High performance servers
+
+### AI Agent Development
+
+Focus:
+
+- LLM fundamentals
+- RAG
+- Tool Calling
+- Agent Framework
+- AI application engineering
+
+The early stages should build common foundations for both directions.
+
+---
+
+## Learning Method
+
+Do not use strict Day-based progress.
+
+Use Phase/Module based progress.
+
+One complete learning topic = one phase.
+
+Each phase should contain:
+
+1. Learning goal
+2. Core concepts
+3. Notes
+4. Demo experiments
+5. Review summary
+
+---
+
+## Current Roadmap Structure
+
+Phase 01:
+
+Java Collection
+
+Goal:
+
+Understand and correctly use Java collection framework.
 
 Status:
 
-进行中
+In progress
 
-Next:
 
-- 完成 Collection 模块整理
-- 补充 Demo
-- 编写学习笔记
+Phase 02:
+
+Java Concurrent
+
+Goal:
+
+Build foundation for high concurrency programming and future server development.
+
+Status:
+
+Planned
+
+
+Phase 03:
+
+Spring Basic
+
+Goal:
+
+Understand core Spring concepts and backend framework principles.
+
+Status:
+
+Planned
+
+---
+
+## Current Progress
+
+Completed:
+
+- Roadmap redesign
+- Repository structure planning
+- Phase based learning model
+
+Current:
+
+Phase 01 - Java Collection
+
+Next tasks:
+
+1. Organize HashMap notes
+2. Complete Collection module structure
+3. Add collection demo
+4. Update progress status
+
+---
+
+## AI Continuation Instructions
+
+When continuing this repository:
+
+1. Read README.md first to understand overall roadmap.
+2. Read this AGENTS.md to understand current state.
+3. Check progress/status.md for latest progress.
+4. Continue from the current phase instead of creating unrelated plans.
+5. Keep plans realistic for fragmented learning time.
+6. Do not jump directly to advanced topics before completing foundations.
+7. When a phase is completed, help create the next phase plan.
