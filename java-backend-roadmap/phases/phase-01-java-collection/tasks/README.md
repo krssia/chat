@@ -1,24 +1,21 @@
-# Phase Task Rules
+# Phase Task Guide
 
-Each learning task should contain:
+这里的 task 是给学习者执行的学习任务，不是给 AI 生成计划使用的提示词。
 
-1. Objective
-2. Learning goals
-3. Learning path
-4. Resources
-5. Practice/demo requirements
-6. Completion criteria
+每个任务需要明确说明：
 
-Resources can include:
+1. 学习目标
+2. 需要掌握的知识点
+3. 推荐学习顺序
+4. 实践内容
+5. 思考问题
+6. 完成标准
 
-- Official documentation
-- Source code
-- High quality blogs
-- Bilibili videos
+任务设计原则：
 
-Video resources must include:
+- 一个任务聚焦一个核心知识点
+- 优先理解原理，再进行代码实践
+- 不要求死记源码，需要理解设计原因
+- 学习结果应该能够用于实际开发
 
-- title
-- author/UP
-- chapters
-- purpose
+完成任务后，需要更新 progress 中的学习状态。
