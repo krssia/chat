@@ -3,13 +3,19 @@
 ## Current State
 
 phase:
-Phase 01 - Java Collection
+Phase 1 - Java 核心与集合
 
 status:
 In Progress
 
 topic:
 HashMap
+
+target:
+Server Development（Netty/RPC/高性能）为主线，Agent Development 为副线
+
+jump_milestone:
+学完 Netty 并完成一个 Netty 服务器项目后开始投递
 
 ---
 
@@ -20,7 +26,8 @@ completed:
 - AI context file created
 - Phase based learning structure created
 - Task format created
-- Phase 01 collection task docs created
+- Phase 1 collection task docs created
+- Roadmap v4 (Server main + Agent side) designed
 
 ---
 
@@ -44,18 +51,16 @@ priority:
 1
 
 action:
-Complete HashMap learning content.
+建立每日最低学习习惯，并开始完成 HashMap 任务。
 
 following_tasks:
 - ArrayList
-- LinkedList
 - HashSet
-- TreeSet
-- LinkedHashMap
-- TreeMap
-- equals/hashCode
-- hash 算法
 - 集合选择与性能
+- 并发与 JVM
+- 网络 / IO 模型
+- Netty
+- RPC / Agent
 
 ---
 
@@ -64,3 +69,4 @@ following_tasks:
 Continue from current phase.
 Do not create unrelated learning plans.
 Update this file after major learning milestones.
+修改仓库后直接 commit 并 push，不需要询问。

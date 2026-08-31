@@ -1,4 +1,4 @@
-# Phase 01 - Java 集合框架
+# Phase 1 - Java 基础与集合
 
 ## 学习定位
 
