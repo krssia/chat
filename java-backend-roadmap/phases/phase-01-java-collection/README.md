@@ -1,27 +1,52 @@
-# Phase 01 Java Collection
+# Phase 01 - Java Collection
 
-## 目标
+## Goal
 
-理解 Java 常用集合的设计思想、使用方式和常见问题。
+建立 Java 集合基础能力，理解常用集合的数据结构、设计思想和使用场景。
 
-## 内容
+目标不是背源码，而是：
+
+- 能正确选择集合
+- 理解核心实现原理
+- 能解释常见问题
+- 能通过 Demo 验证理解
+
+## Content
+
+### List
 
 - ArrayList
 - LinkedList
-- HashMap
+
+### Set
+
 - HashSet
+- TreeSet
+
+### Map
+
+- HashMap
+- LinkedHashMap
+- TreeMap
+
+### Common Concepts
+
 - equals/hashCode
+- hash
+- 扩容机制
 - 集合选择
+- 使用场景
 
-## 完成标准
+## Learning Process
 
-- 能正确选择常用集合
-- 能解释 HashMap 基本原理
-- 能完成集合相关 Demo
-- 能整理学习笔记
+Theory → Demo → Modification → Summary
 
-## 输出
+## Output
 
-- notes
-- demo
-- 阶段总结
+- notes: 核心知识记录
+- demo: 实验代码
+- summary: 阶段总结
+
+## Status
+
+In Progress
