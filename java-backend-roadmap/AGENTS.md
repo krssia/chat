@@ -1,162 +1,144 @@
-# AI上下文说明
+# AI Agent Context
 
-> 此文件用于帮助 AI 快速理解仓库内容、当前学习路线、执行进度，并在后续对话中继续生成合理的学习计划。
+## Context
 
-## 仓库目的
+Repository: java-backend-roadmap
 
-这是一个个人 Java 后端成长路线仓库。
+Purpose: Maintain a long-term Java backend learning roadmap.
 
-目标不仅是保存笔记，而是记录长期学习过程：
-
-理论 → Demo → 修改实践 → 总结 → 应用
-
-AI 在继续维护仓库时，应优先读取此文件了解整体背景。
+This file is used by AI agents to understand repository background, learning strategy, current state, and maintenance rules.
 
 ---
 
-## 用户背景
+## Goal
 
-当前身份：
+Help the learner improve Java backend engineering ability through:
 
-Java 后端开发新人。
+Theory → Demo → Practice → Review → Application
 
-当前情况：
-
-- 已经进入软件开发岗位。
-- 参与过真实开发任务。
-- 了解并使用过常见 Java 后端技术。
-- 需要加强基础能力和独立编码能力。
-- 使用 AI 作为辅助工具，但目标是降低对 AI 黑盒代码的依赖。
-
-本路线不应该：
-
-- 与当前工作项目强绑定。
-- 继续旧项目作为主要学习内容。
-- 变成简单 CRUD 教程。
+The repository is not a simple CRUD tutorial and should not become a record of unrelated work projects.
 
 ---
 
-## 长期方向
+## User Profile
 
-主要方向：
+Role:
+- Java backend developer learner
 
-Java 后端开发
+Background:
+- Has participated in real development tasks.
+- Understands common Java backend technologies.
+- Needs stronger fundamentals and independent coding ability.
 
-未来重点方向：
+AI usage goal:
+- Use AI as an assistant.
+- Avoid depending on AI-generated black-box solutions.
 
-### 服务器开发
+---
 
-关注：
+## Long Term Direction
 
-- 计算机网络
+### Backend Engineering
+
+Focus:
+- Computer networks
 - TCP/UDP
 - Netty
 - RPC
-- 高性能服务器
+- High performance servers
 
-### AI Agent 开发
+### AI Agent Engineering
 
-关注：
-
-- LLM 基础
+Focus:
+- LLM fundamentals
 - RAG
 - Tool Calling
-- Agent Framework
-- AI 应用工程
-
-前期学习阶段需要同时为两个方向建立基础能力。
+- Agent Frameworks
+- AI application engineering
 
 ---
 
-## 学习方式
+## Learning Rules
 
-不采用严格的 Day 任务制。
+Learning model:
+- Phase based learning.
+- One major knowledge topic per phase.
 
-采用 Phase / Module 阶段式学习。
+Each phase should contain:
 
-一个完整知识主题作为一个学习任务。
-
-每个阶段应该包含：
-
-1. 学习目标
-2. 核心知识点
-3. 学习笔记
-4. Demo 实验
-5. 复盘总结
+1. Learning goal
+2. Core concepts
+3. Notes
+4. Demo experiments
+5. Review summary
 
 ---
 
-## 当前路线结构
+## Current Roadmap
 
 ### Phase 01
+Topic: Java Collection
+Status: In Progress
 
-Java 集合
-
-目标：
-
-理解并正确使用 Java 集合框架。
-
-状态：
-
-进行中
-
+Goal:
+Understand and correctly use Java Collection Framework.
 
 ### Phase 02
+Topic: Java Concurrent Programming
+Status: Planned
 
-Java 并发
-
-目标：
-
-建立高并发编程基础，为后续服务器开发做准备。
-
-状态：
-
-计划中
-
+Goal:
+Build foundation for high concurrency development.
 
 ### Phase 03
+Topic: Spring Fundamentals
+Status: Planned
 
-Spring 基础
-
-目标：
-
-理解 Spring 核心机制和后端框架原理。
-
-状态：
-
-计划中
+Goal:
+Understand Spring core mechanisms.
 
 ---
 
-## 当前进度
+## Current Progress
 
-已完成：
+Completed:
+- Roadmap restructuring
+- Repository structure design
+- Phase learning model design
 
-- 路线重构
-- 仓库结构规划
-- 阶段化学习模型设计
+Current Phase:
+Phase 01 - Java Collection
 
-当前：
-
-Phase 01 - Java 集合
-
-下一步任务：
-
-1. 整理 HashMap 学习内容
-2. 完善集合模块结构
-3. 增加集合 Demo
-4. 更新学习进度
+Next Tasks:
+1. Complete HashMap notes
+2. Improve collection module structure
+3. Add collection demos
+4. Update progress status
 
 ---
 
-## AI 继续执行规则
+## Agent Rules
 
-继续维护此仓库时：
+When maintaining this repository:
 
-1. 首先阅读 README.md，理解整体路线。
-2. 阅读 AGENTS.md，理解仓库背景和当前状态。
-3. 查看 progress/status.md 获取最新进度。
-4. 从当前阶段继续，不创建无关计划。
-5. 计划需要适应碎片化学习时间。
-6. 基础未完成前，不直接跳跃到高级内容。
-7. 完成一个阶段后，再协助设计下一阶段计划。
+1. Read README.md first.
+2. Read this AGENTS.md for context.
+3. Read progress/status.md for current state.
+4. Continue existing work instead of creating unrelated plans.
+5. Keep plans suitable for fragmented learning time.
+6. Do not skip foundational knowledge.
+7. Design the next phase only after the current phase is completed.
+
+---
+
+## Output Format Preference
+
+AI-generated workflow documents should use:
+
+- Context
+- Goal
+- Rules
+- Input
+- Output
+- Constraints
+- Current Progress
