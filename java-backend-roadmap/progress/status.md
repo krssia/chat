@@ -1,29 +1,36 @@
-# Learning Progress
+# Learning Status
 
-## Current Status
+## Current Phase
 
-Roadmap v2 initialized.
+Phase 01 - Java Collection
 
-## Completed
+## Current Task
 
-- Repository structure review
-- Learning plan adjustment
+HashMap
 
-## Current Module
+## Repository Status
 
-Phase 1: Java Core
+Completed:
 
-### Module 01: Collection
+- Roadmap structure created
+- AI context file created
+- Phase based learning structure created
+- Task format created
 
-Status: Preparing
+## Task Status
 
-Topics:
+HashMap:
+
+- [x] Task created
+- [ ] Notes completed
+- [ ] Demo completed
+- [ ] Review completed
+
+## Next Action
+
+Start HashMap learning.
+
+After completion continue:
 
 - ArrayList
-- LinkedList
-- HashMap
 - HashSet
-
-Goal:
-
-Understand usage, design ideas and common problems.
