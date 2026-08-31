@@ -105,6 +105,7 @@ Completed:
 - Roadmap restructuring
 - Repository structure design
 - Phase learning model design
+- Phase 01 collection task docs created
 
 Current Phase:
 Phase 01 - Java Collection

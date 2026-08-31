@@ -19,3 +19,30 @@
 - 学习结果应该能够用于实际开发
 
 完成任务后，需要更新 progress 中的学习状态。
+
+## 当前任务清单
+
+Phase 01 集合部分已建立以下任务文档：
+
+### List
+
+- [arraylist.md](./arraylist.md)：ArrayList 数组结构与扩容机制
+- [linkedlist.md](./linkedlist.md)：LinkedList 双向链表与 Deque 使用
+
+### Set
+
+- [hashset.md](./hashset.md)：HashSet 基于 HashMap 的去重实现
+- [treeset.md](./treeset.md)：TreeSet 有序 Set 与红黑树
+
+### Map
+
+- [hashmap.md](./hashmap.md)：HashMap 使用、原理与源码理解
+- [linkedhashmap.md](./linkedhashmap.md)：LinkedHashMap 顺序维护与 LRU
+- [treemap.md](./treemap.md)：TreeMap 有序 Map 与范围查询
+
+### 通用基础
+
+- [equals-hashcode.md](./equals-hashcode.md)：equals/hashCode 约定与正确实现
+- [hash-algorithm.md](./hash-algorithm.md)：hash 算法与哈希定位
+- [collection-selection.md](./collection-selection.md)：集合选择与性能分析
+

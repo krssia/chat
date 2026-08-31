@@ -20,6 +20,7 @@ completed:
 - AI context file created
 - Phase based learning structure created
 - Task format created
+- Phase 01 collection task docs created
 
 ---
 
@@ -47,7 +48,14 @@ Complete HashMap learning content.
 
 following_tasks:
 - ArrayList
+- LinkedList
 - HashSet
+- TreeSet
+- LinkedHashMap
+- TreeMap
+- equals/hashCode
+- hash 算法
+- 集合选择与性能
 
 ---
 
