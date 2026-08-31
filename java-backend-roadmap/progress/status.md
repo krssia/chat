@@ -29,6 +29,7 @@ completed:
 - Phase 1 collection task docs created
 - Roadmap v4 (Server main + Agent side) designed
 - Phase 0 task created
+- Phase 0 inventory created
 
 ---
 
@@ -40,9 +41,10 @@ Phase 0 - 习惯与现状盘点
 checklist:
 
 - [x] Task created
-- [ ] 工作技术清单完成
-- [ ] 薄弱点清单完成
-- [ ] 最低学习习惯确定
+- [x] 工作技术清单完成
+- [ ] 薄弱点自评完成
+- [ ] 薄弱点清单确认
+- [x] 最低学习习惯确定（碎片时间，每天 15～30 分钟）
 - [ ] progress/status.md 更新
 - [ ] 进入 Phase 1
 
@@ -54,7 +56,7 @@ priority:
 1
 
 action:
-完成现状盘点：工作技术清单、薄弱点清单、最低学习习惯，然后进入 Phase 1。
+完成薄弱点自评（10 分钟），确认薄弱点清单后进入 Phase 1。
 
 following_tasks:
 - Phase 1：Java 核心与集合
