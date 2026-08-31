@@ -4,6 +4,13 @@
 
 理解 equals 与 hashCode 的约定，掌握它们在 HashSet/HashMap 等哈希集合中的关键作用，并能够正确实现。
 
+## 学习资源
+
+- JavaGuide：[Java 基础常见知识点&面试题总结(中)](https://www.cnblogs.com/javaguide/p/16372251.html)
+- 博客：[hashCode() 和 equals() 方法及使用规范](https://www.cnblogs.com/xfeiyun/p/17246204.html)
+- B站视频：【HashMap面试夺命连环20问】（https://www.bilibili.com/video/BV1S7pqeiEaz/）
+- 必看内容：equals/hashCode 约定、为什么 HashMap 先比较 hash 再比较 equals
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

@@ -4,6 +4,13 @@
 
 理解 Java HashMap 的使用方式、核心设计思想和底层实现原理。
 
+## 学习资源
+
+- JavaGuide：[HashMap 源码分析](https://javaguide.cn/java/collection/hashmap-source-code.html)
+- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+- B站视频：【HashMap面试夺命连环20问】（https://www.bilibili.com/video/BV1S7pqeiEaz/）
+- 必看内容：put / get / resize 流程、链表转红黑树、扩容机制
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

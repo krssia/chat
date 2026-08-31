@@ -3,13 +3,13 @@
 ## Current State
 
 phase:
-Phase 0 - 习惯与现状盘点
+Phase 1 - Java 核心与集合
 
 status:
 In Progress
 
 topic:
-现状盘点与薄弱点清单
+HashMap
 
 target:
 Server Development（Netty/RPC/高性能）为主线，Agent Development 为副线
@@ -30,23 +30,21 @@ completed:
 - Roadmap v4 (Server main + Agent side) designed
 - Phase 0 task created
 - Phase 0 inventory created
+- Phase 0 completed（按初学者/半入门水平确认薄弱点）
 
 ---
 
 ## Task Status
 
 current_task:
-Phase 0 - 习惯与现状盘点
+HashMap
 
 checklist:
 
 - [x] Task created
-- [x] 工作技术清单完成
-- [ ] 薄弱点自评完成
-- [ ] 薄弱点清单确认
-- [x] 最低学习习惯确定（碎片时间，每天 15～30 分钟）
-- [ ] progress/status.md 更新
-- [ ] 进入 Phase 1
+- [ ] Notes completed
+- [ ] Demo completed
+- [ ] Review completed
 
 ---
 
@@ -56,13 +54,15 @@ priority:
 1
 
 action:
-完成薄弱点自评（10 分钟），确认薄弱点清单后进入 Phase 1。
+开始 Phase 1：按 HashMap 任务学习资源完成学习，先看资料再做 Demo。
 
 following_tasks:
-- Phase 1：Java 核心与集合
-- HashMap
 - ArrayList
 - HashSet
+- 集合选择与性能
+- Phase 2：并发与 JVM
+- Phase 3：网络 / IO 模型
+- Phase 4：Netty
 
 ---
 

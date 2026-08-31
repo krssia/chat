@@ -4,6 +4,13 @@
 
 理解 LinkedList 的双向链表结构、作为 List 和 Deque 的双重身份，以及插入删除和随机访问的性能特点。
 
+## 学习资源
+
+- JavaGuide：[LinkedList 源码分析](https://www.javaguide.cn/java/collection/linkedlist-source-code.html)
+- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+- B站视频：【不背八股】手写ArrayList&LinkedList（https://www.bilibili.com/video/BV1Kp5tzGEc5/）
+- 必看内容：Node 节点结构、头尾插入、node(int index) 查找过程
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

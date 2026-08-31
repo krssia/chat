@@ -4,6 +4,13 @@
 
 能够根据业务场景选择合适的 Java 集合，理解常用集合的时间复杂度、内存特点和线程安全问题。
 
+## 学习资源
+
+- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+- JavaGuide：[Java 集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
+- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
+- 必看内容：ArrayList vs LinkedList、HashMap vs LinkedHashMap vs TreeMap、集合选型
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

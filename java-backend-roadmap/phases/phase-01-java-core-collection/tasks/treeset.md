@@ -4,6 +4,13 @@
 
 理解 TreeSet 的有序 Set 特性、底层红黑树结构，以及 Comparable/Comparator 在排序中的作用。
 
+## 学习资源
+
+- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+- 博客：[TreeSet 源码解析以及与 HashSet 和 HashMap 的区别](https://juejin.cn/post/6869395553571209223)
+- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
+- 必看内容：TreeMap 底层、Comparator/Comparable、范围查询
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

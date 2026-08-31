@@ -4,6 +4,13 @@
 
 理解 HashSet 基于 HashMap 的实现原理、元素唯一性机制，以及 equals/hashCode 对去重结果的影响。
 
+## 学习资源
+
+- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+- 博客：[HashSet 核心源码解析](https://cloud.tencent.com/developer/article/1612981?from=15425)
+- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
+- 必看内容：HashSet 底层 HashMap、PRESENT 对象、equals/hashCode 对去重的影响
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

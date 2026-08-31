@@ -4,6 +4,13 @@
 
 理解 ArrayList 的数组存储结构、动态扩容机制和增删查性能特点，能够在实际开发中正确选择和使用 ArrayList。
 
+## 学习资源
+
+- JavaGuide：[ArrayList 源码分析](https://javaguide.cn/java/collection/arraylist-source-code.html)
+- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+- B站视频：【不背八股】手写ArrayList&LinkedList（https://www.bilibili.com/video/BV1Kp5tzGEc5/）
+- 必看内容：扩容机制、remove 时的数组拷贝过程
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

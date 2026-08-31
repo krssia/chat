@@ -4,6 +4,13 @@
 
 理解 TreeMap 的有序 Map 特性、红黑树底层结构，以及基于 key 排序和范围查询的使用方式。
 
+## 学习资源
+
+- JavaGuide：[Java 集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
+- 博客：[Java 集合框架 TreeMap 源码分析](https://www.cnblogs.com/zebt/articles/17625965.html)
+- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
+- 必看内容：红黑树有序性、subMap / headMap / tailMap 范围查询
+
 ## 需要掌握
 
 完成任务后，需要能够解释：

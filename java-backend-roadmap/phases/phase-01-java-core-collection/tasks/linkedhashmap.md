@@ -4,6 +4,13 @@
 
 理解 LinkedHashMap 如何保持插入顺序或访问顺序，并掌握基于它实现 LRU 缓存的基本方法。
 
+## 学习资源
+
+- JavaGuide：[Java 集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
+- JavaGuide：[LinkedHashMap 源码分析](https://javaguide.cn/java/collection/linkedhashmap-source-code.html)
+- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
+- 必看内容：accessOrder、afterNodeAccess、removeEldestEntry 与 LRU
+
 ## 需要掌握
 
 完成任务后，需要能够解释：
