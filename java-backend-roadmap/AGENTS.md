@@ -1,162 +1,162 @@
-# Java Backend Roadmap Context
+# AI上下文说明
 
-> This file is used to help AI quickly understand this repository, current learning plan, progress, and continue generating the next learning phase.
+> 此文件用于帮助 AI 快速理解仓库内容、当前学习路线、执行进度，并在后续对话中继续生成合理的学习计划。
 
-## Repository Purpose
+## 仓库目的
 
-This repository is a personal Java backend growth roadmap.
+这是一个个人 Java 后端成长路线仓库。
 
-The goal is not only to store notes, but to record a long-term learning process:
+目标不仅是保存笔记，而是记录长期学习过程：
 
-Theory → Demo → Modification → Summary → Practice
+理论 → Demo → 修改实践 → 总结 → 应用
 
-AI should use this file as the first context when continuing work on this repository.
-
----
-
-## User Background
-
-Current identity:
-
-Java backend junior developer.
-
-Situation:
-
-- Already entered the software development industry.
-- Has participated in real development tasks.
-- Has experience with common Java backend technologies.
-- Needs to strengthen fundamentals and independent coding ability.
-- Uses AI as an assistant, but the goal is to reduce dependence on AI-generated black-box code.
-
-This roadmap should NOT:
-
-- Be tightly coupled with current work projects.
-- Continue old projects as the main learning material.
-- Become a simple CRUD tutorial.
+AI 在继续维护仓库时，应优先读取此文件了解整体背景。
 
 ---
 
-## Long-term Direction
+## 用户背景
 
-Main direction:
+当前身份：
 
-Java Backend Development
+Java 后端开发新人。
 
-Future specialization options:
+当前情况：
 
-### Server Development
+- 已经进入软件开发岗位。
+- 参与过真实开发任务。
+- 了解并使用过常见 Java 后端技术。
+- 需要加强基础能力和独立编码能力。
+- 使用 AI 作为辅助工具，但目标是降低对 AI 黑盒代码的依赖。
 
-Focus:
+本路线不应该：
 
-- Computer networking
+- 与当前工作项目强绑定。
+- 继续旧项目作为主要学习内容。
+- 变成简单 CRUD 教程。
+
+---
+
+## 长期方向
+
+主要方向：
+
+Java 后端开发
+
+未来重点方向：
+
+### 服务器开发
+
+关注：
+
+- 计算机网络
 - TCP/UDP
 - Netty
 - RPC
-- High performance servers
+- 高性能服务器
 
-### AI Agent Development
+### AI Agent 开发
 
-Focus:
+关注：
 
-- LLM fundamentals
+- LLM 基础
 - RAG
 - Tool Calling
 - Agent Framework
-- AI application engineering
+- AI 应用工程
 
-The early stages should build common foundations for both directions.
-
----
-
-## Learning Method
-
-Do not use strict Day-based progress.
-
-Use Phase/Module based progress.
-
-One complete learning topic = one phase.
-
-Each phase should contain:
-
-1. Learning goal
-2. Core concepts
-3. Notes
-4. Demo experiments
-5. Review summary
+前期学习阶段需要同时为两个方向建立基础能力。
 
 ---
 
-## Current Roadmap Structure
+## 学习方式
 
-Phase 01:
+不采用严格的 Day 任务制。
 
-Java Collection
+采用 Phase / Module 阶段式学习。
 
-Goal:
+一个完整知识主题作为一个学习任务。
 
-Understand and correctly use Java collection framework.
+每个阶段应该包含：
 
-Status:
-
-In progress
-
-
-Phase 02:
-
-Java Concurrent
-
-Goal:
-
-Build foundation for high concurrency programming and future server development.
-
-Status:
-
-Planned
-
-
-Phase 03:
-
-Spring Basic
-
-Goal:
-
-Understand core Spring concepts and backend framework principles.
-
-Status:
-
-Planned
+1. 学习目标
+2. 核心知识点
+3. 学习笔记
+4. Demo 实验
+5. 复盘总结
 
 ---
 
-## Current Progress
+## 当前路线结构
 
-Completed:
+### Phase 01
 
-- Roadmap redesign
-- Repository structure planning
-- Phase based learning model
+Java 集合
 
-Current:
+目标：
 
-Phase 01 - Java Collection
+理解并正确使用 Java 集合框架。
 
-Next tasks:
+状态：
 
-1. Organize HashMap notes
-2. Complete Collection module structure
-3. Add collection demo
-4. Update progress status
+进行中
+
+
+### Phase 02
+
+Java 并发
+
+目标：
+
+建立高并发编程基础，为后续服务器开发做准备。
+
+状态：
+
+计划中
+
+
+### Phase 03
+
+Spring 基础
+
+目标：
+
+理解 Spring 核心机制和后端框架原理。
+
+状态：
+
+计划中
 
 ---
 
-## AI Continuation Instructions
+## 当前进度
 
-When continuing this repository:
+已完成：
 
-1. Read README.md first to understand overall roadmap.
-2. Read this AGENTS.md to understand current state.
-3. Check progress/status.md for latest progress.
-4. Continue from the current phase instead of creating unrelated plans.
-5. Keep plans realistic for fragmented learning time.
-6. Do not jump directly to advanced topics before completing foundations.
-7. When a phase is completed, help create the next phase plan.
+- 路线重构
+- 仓库结构规划
+- 阶段化学习模型设计
+
+当前：
+
+Phase 01 - Java 集合
+
+下一步任务：
+
+1. 整理 HashMap 学习内容
+2. 完善集合模块结构
+3. 增加集合 Demo
+4. 更新学习进度
+
+---
+
+## AI 继续执行规则
+
+继续维护此仓库时：
+
+1. 首先阅读 README.md，理解整体路线。
+2. 阅读 AGENTS.md，理解仓库背景和当前状态。
+3. 查看 progress/status.md 获取最新进度。
+4. 从当前阶段继续，不创建无关计划。
+5. 计划需要适应碎片化学习时间。
+6. 基础未完成前，不直接跳跃到高级内容。
+7. 完成一个阶段后，再协助设计下一阶段计划。
