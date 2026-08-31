@@ -1,36 +1,58 @@
-# Learning Status
+# Learning Progress
 
-## Current Phase
+## Current State
 
+phase:
 Phase 01 - Java Collection
 
-## Current Task
+status:
+In Progress
 
+topic:
 HashMap
 
-## Repository Status
+---
 
-Completed:
+## Repository Progress
 
+completed:
 - Roadmap structure created
 - AI context file created
 - Phase based learning structure created
 - Task format created
 
+---
+
 ## Task Status
 
-HashMap:
+current_task:
+HashMap
+
+checklist:
 
 - [x] Task created
 - [ ] Notes completed
 - [ ] Demo completed
 - [ ] Review completed
 
+---
+
 ## Next Action
 
-Start HashMap learning.
+priority:
+1
 
-After completion continue:
+action:
+Complete HashMap learning content.
 
+following_tasks:
 - ArrayList
 - HashSet
+
+---
+
+## Agent Instruction
+
+Continue from current phase.
+Do not create unrelated learning plans.
+Update this file after major learning milestones.
