@@ -1,6 +1,21 @@
 # Java Backend Roadmap v2
 
-> 目标：作为已经进入开发岗位的 Java 后端新人，系统补齐基础能力，提高独立开发和解决问题的能力，为未来跳槽做准备。
+> 目标：作为已经进入开发岗位的 Java 后端新人，系统补齐基础能力，提高独立开发和解决问题的能力，为未来跳槽准备。
+
+## 学习定位
+
+当前阶段：
+
+- 已经接触真实开发工作
+- 需要提升 Java 基础和工程能力
+- 降低对 AI 生成代码的依赖
+- 建立独立分析、设计和实现能力
+
+长期方向：
+
+- Java Backend
+- Server Development（Netty / RPC / 高性能服务）
+- AI Agent Development（LLM / RAG / Agent）
 
 ## 学习原则
 
@@ -8,39 +23,64 @@
 
 理论 → Demo → 独立修改 → 总结 → 应用
 
-## 阶段规划
+不采用 Day 任务制，按照完整模块推进。
 
-### Phase 1：Java 核心能力
+## 当前阶段规划
 
-- Java 集合
-- 面向对象
-- 泛型
-- 异常
-- IO
-- 常用工具类
+### Phase 01：Java Collection
 
-### Phase 2：Java 工程基础
+目标：理解 Java 常用集合设计和使用方式。
 
-- 多线程
-- JVM基础
-- Maven
-- Git
-- Linux基础
+包含：
 
-### Phase 3：后端核心技术
+- ArrayList
+- LinkedList
+- HashMap
+- HashSet
+- 常见集合问题
 
-- MySQL
-- Redis
-- Spring
-- MyBatis
-- 消息队列
+### Phase 02：Java Concurrent
 
-### Phase 4：提升阶段
+目标：掌握 Java 并发基础，为后续高性能开发打基础。
 
-- 源码阅读
-- 性能优化
-- 系统设计
-- 网络编程
+包含：
+
+- Thread
+- synchronized
+- volatile
+- Lock
+- ThreadPool
+
+### Phase 03：Spring Basic
+
+目标：理解 Java 后端框架核心机制。
+
+包含：
+
+- IOC
+- Bean 生命周期
+- AOP
+- 事务
+- Spring MVC 基础流程
+
+## 后续方向
+
+### Server Development
+
+- 计算机网络
+- TCP/HTTP
+- Netty
+- WebSocket
+- RPC
+- 高性能服务器
+
+### AI Agent
+
+- LLM 基础
+- 模型调用
+- RAG
+- Tool Calling
+- Agent Framework
 
 ## 学习方式
 
@@ -50,10 +90,12 @@
 2. 编写最小 Demo
 3. 修改需求进行练习
 4. 总结 Markdown 笔记
-5. 定期复盘
+5. 阶段复盘
 
 ## 记录原则
 
-- 不按天强制推进，按模块完成
+- 不绑定当前工作项目
+- 不依赖旧项目
+- 不按天强制推进
 - 保持碎片时间也能持续推进
 - 重视理解，不追求堆积代码
