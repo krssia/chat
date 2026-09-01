@@ -23,6 +23,22 @@
 
 完成任务后，需要更新 progress 中的学习状态。
 
+## 推荐学习顺序
+
+> 下面的清单是按类型分组的，**不是学习顺序**。请按下面的顺序学习，从简单到复杂、从基础到应用。
+
+| 顺序 | 任务 | 为什么排这里 |
+|---|---|---|
+| 1 | [arraylist.md](./arraylist.md) | 最简单，数组结构，先建立“集合是什么”的感觉 |
+| 2 | [linkedlist.md](./linkedlist.md) | 链表结构，和 ArrayList 对比着学，理解两种存储 |
+| 3 | [equals-hashcode.md](./equals-hashcode.md) | 哈希集合的地基，不先懂它，后面 HashSet/HashMap 会懵 |
+| 4 | [hash-algorithm.md](./hash-algorithm.md) | HashMap 的核心原理，先懂哈希定位 |
+| 5 | [hashmap.md](./hashmap.md) | 最重要的一个，前面两个基础打好了这里就顺 |
+| 6 | [hashset.md](./hashset.md) | 基于 HashMap，学完 HashMap 后几乎白送 |
+| 7 | [linkedhashmap.md](./linkedhashmap.md) | 在 HashMap 基础上加顺序，理解 LRU |
+| 8 | [treemap.md](./treemap.md) 和 [treeset.md](./treeset.md) | 红黑树，相对难，放后面 |
+| 9 | [collection-selection.md](./collection-selection.md) | 收尾，把前面所有知识串起来做选型 |
+
 ## 当前任务清单
 
 Phase 1 集合部分已建立以下任务文档：
