@@ -8,6 +8,10 @@
 
 > 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
 
+**资源关系：**
+- 主线：资源1（源码分析）→ 资源2（面试题，自测）
+- 资源3（B站视频）作为补充，可跳过
+
 ### 1. JavaGuide：LinkedHashMap 源码分析
 - 链接：https://javaguide.cn/java/collection/linkedhashmap-source-code.html
 - 怎么用：通读一遍，重点看「顺序维护」和「LRU」

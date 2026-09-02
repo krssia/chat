@@ -8,6 +8,10 @@
 
 > 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
 
+**资源关系：**
+- 主线：资源1（源码分析）→ 资源3（手写视频），看完 1 直接手写
+- 资源2（面试题）最后用来自测，可跳过
+
 ### 1. JavaGuide：ArrayList 源码分析
 - 链接：https://javaguide.cn/java/collection/arraylist-source-code.html
 - 怎么用：通读一遍即可，重点看「扩容机制」和「remove 的数组拷贝」两节

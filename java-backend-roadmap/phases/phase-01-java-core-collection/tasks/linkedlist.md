@@ -8,6 +8,10 @@
 
 > 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
 
+**资源关系：**
+- 主线：资源1（源码分析）→ 资源3（手写视频），看完 1 直接手写
+- 资源2（面试题）最后用来自测，可跳过
+
 ### 1. JavaGuide：LinkedList 源码分析
 - 链接：https://www.javaguide.cn/java/collection/linkedlist-source-code.html
 - 怎么用：通读一遍，重点看「Node 节点结构」和「头尾插入/删除」

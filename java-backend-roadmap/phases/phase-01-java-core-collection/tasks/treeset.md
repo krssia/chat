@@ -8,6 +8,10 @@
 
 > 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
 
+**资源关系：**
+- 主线：资源1（面试题，建立印象）→ 资源2（源码解析，核心）
+- 资源3（B站视频）作为补充，可跳过
+
 ### 1. JavaGuide：Java 集合常见面试题总结(上)
 - 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
 - 怎么用：先读 TreeSet 相关题目，建立整体印象
