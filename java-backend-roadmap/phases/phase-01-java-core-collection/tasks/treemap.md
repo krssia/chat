@@ -6,10 +6,26 @@
 
 ## 学习资源
 
-- JavaGuide：[Java 集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
-- 博客：[Java 集合框架 TreeMap 源码分析](https://www.cnblogs.com/zebt/articles/17625965.html)
-- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
-- 必看内容：红黑树有序性、subMap / headMap / tailMap 范围查询
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. 博客：Java 集合框架 TreeMap 源码分析
+- 链接：https://www.cnblogs.com/zebt/articles/17625965.html
+- 怎么用：通读一遍，重点看「有序性」和「范围查询」
+- 重点看：
+  - 红黑树如何保证有序
+  - key 比较（自然顺序 / Comparator）
+  - subMap / headMap / tailMap 范围查询
+- 不用看：红黑树旋转细节，理解“为什么 O(log n)”即可
+
+### 2. JavaGuide：Java 集合常见面试题总结(下)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-02.html
+- 怎么用：学完博客后，只读 TreeMap 相关题目，用来检查自己会不会
+- 重点看：TreeMap 和 HashMap 的区别、为什么 key 不能为 null
+
+### 3. B站视频：黑马 Java 基础教程 - 集合框架
+- 链接：https://www.bilibili.com/video/BV1fG4y1g76v/
+- 怎么用：只看 TreeMap 相关小节，作为补充理解
+- 重点看：TreeMap 排序和范围查询演示
 
 ## 需要掌握
 

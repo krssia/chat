@@ -6,10 +6,26 @@
 
 ## 学习资源
 
-- JavaGuide：[Java 集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
-- JavaGuide：[LinkedHashMap 源码分析](https://javaguide.cn/java/collection/linkedhashmap-source-code.html)
-- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
-- 必看内容：accessOrder、afterNodeAccess、removeEldestEntry 与 LRU
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：LinkedHashMap 源码分析
+- 链接：https://javaguide.cn/java/collection/linkedhashmap-source-code.html
+- 怎么用：通读一遍，重点看「顺序维护」和「LRU」
+- 重点看：
+  - accessOrder 参数的作用
+  - afterNodeAccess / afterNodeInsertion
+  - removeEldestEntry 与 LRU 淘汰
+- 不用看：HashMap 的 put 细节（那是 HashMap 任务的内容）
+
+### 2. JavaGuide：Java 集合常见面试题总结(下)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-02.html
+- 怎么用：学完源码后，只读 LinkedHashMap 相关题目，用来检查自己会不会
+- 重点看：LinkedHashMap 和 HashMap 的区别、LRU 实现
+
+### 3. B站视频：黑马 Java 基础教程 - 集合框架
+- 链接：https://www.bilibili.com/video/BV1fG4y1g76v/
+- 怎么用：只看 LinkedHashMap 相关小节，作为补充理解
+- 重点看：插入顺序 vs 访问顺序演示
 
 ## 需要掌握
 

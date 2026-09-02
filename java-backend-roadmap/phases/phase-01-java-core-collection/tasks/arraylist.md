@@ -6,10 +6,27 @@
 
 ## 学习资源
 
-- JavaGuide：[ArrayList 源码分析](https://javaguide.cn/java/collection/arraylist-source-code.html)
-- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-- B站视频：【不背八股】手写ArrayList&LinkedList（https://www.bilibili.com/video/BV1Kp5tzGEc5/）
-- 必看内容：扩容机制、remove 时的数组拷贝过程
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：ArrayList 源码分析
+- 链接：https://javaguide.cn/java/collection/arraylist-source-code.html
+- 怎么用：通读一遍即可，重点看「扩容机制」和「remove 的数组拷贝」两节
+- 重点看：
+  - 构造方法（无参 / 指定容量 / 传入集合）
+  - add() 如何触发 grow()
+  - grow() 扩容计算（1.5 倍）
+  - remove() 删除时元素前移
+- 不用看：源码逐行细节，理解设计原因即可
+
+### 2. JavaGuide：Java 集合常见面试题总结(上)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
+- 怎么用：学完源码后，只读 ArrayList 相关题目，用来检查自己会不会
+- 重点看：ArrayList vs LinkedList 的对比
+
+### 3. B站视频：手写ArrayList&LinkedList
+- 链接：https://www.bilibili.com/video/BV1Kp5tzGEc5/
+- 怎么用：看完源码分析后，跟着视频自己手写一遍 ArrayList
+- 重点看：手写 add / remove / 扩容
 
 ## 需要掌握
 

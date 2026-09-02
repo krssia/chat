@@ -6,10 +6,26 @@
 
 ## 学习资源
 
-- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-- 博客：[HashSet 核心源码解析](https://cloud.tencent.com/developer/article/1612981?from=15425)
-- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
-- 必看内容：HashSet 底层 HashMap、PRESENT 对象、equals/hashCode 对去重的影响
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：Java 集合常见面试题总结(上)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
+- 怎么用：先读 HashSet 相关题目，建立整体印象
+- 重点看：HashSet 为什么能去重、和 HashMap 的关系
+
+### 2. 博客：HashSet 核心源码解析
+- 链接：https://cloud.tencent.com/developer/article/1612981?from=15425
+- 怎么用：通读一遍，重点看 add() 和 PRESENT 对象
+- 重点看：
+  - HashSet 内部持有 HashMap
+  - 元素作为 key，value 用固定 PRESENT
+  - equals/hashCode 如何决定去重
+- 不用看：HashMap 的 put 细节（那是 HashMap 任务的内容）
+
+### 3. B站视频：黑马 Java 基础教程 - 集合框架
+- 链接：https://www.bilibili.com/video/BV1fG4y1g76v/
+- 怎么用：只看 HashSet 相关小节，作为补充理解
+- 重点看：HashSet 去重演示
 
 ## 需要掌握
 

@@ -6,10 +6,27 @@
 
 ## 学习资源
 
-- JavaGuide：[HashMap 源码分析](https://javaguide.cn/java/collection/hashmap-source-code.html)
-- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-- B站视频：【HashMap面试夺命连环20问】（https://www.bilibili.com/video/BV1S7pqeiEaz/）
-- 必看内容：hash() 扰动、(n-1)&hash、扩容后重新分布
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：HashMap 源码分析
+- 链接：https://javaguide.cn/java/collection/hashmap-source-code.html
+- 怎么用：只读「hash 方法」和「桶下标计算」相关小节
+- 重点看：
+  - hash() 扰动：高 16 位异或低 16 位
+  - 桶下标：(n - 1) & hash
+  - 为什么容量是 2 的幂
+  - 扩容后元素重新分布
+- 不用看：put / get 完整流程（那是 HashMap 任务的内容）
+
+### 2. JavaGuide：Java 集合常见面试题总结(上)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
+- 怎么用：只读 hash 相关题目，用来检查自己会不会
+- 重点看：为什么用 (n-1)&hash、为什么容量是 2 的幂
+
+### 3. B站视频：HashMap面试夺命连环20问
+- 链接：https://www.bilibili.com/video/BV1S7pqeiEaz/
+- 怎么用：只看涉及 hash 定位和冲突的题目
+- 重点看：hash 扰动、冲突处理
 
 ## 需要掌握
 

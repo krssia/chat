@@ -6,10 +6,26 @@
 
 ## 学习资源
 
-- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-- 博客：[TreeSet 源码解析以及与 HashSet 和 HashMap 的区别](https://juejin.cn/post/6869395553571209223)
-- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
-- 必看内容：TreeMap 底层、Comparator/Comparable、范围查询
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：Java 集合常见面试题总结(上)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
+- 怎么用：先读 TreeSet 相关题目，建立整体印象
+- 重点看：TreeSet 的有序性、和 HashSet 的区别
+
+### 2. 博客：TreeSet 源码解析以及与 HashSet 和 HashMap 的区别
+- 链接：https://juejin.cn/post/6869395553571209223
+- 怎么用：通读一遍，重点看 TreeSet 底层和排序
+- 重点看：
+  - TreeSet 底层是 TreeMap
+  - 自然排序 vs Comparator
+  - 为什么不允许 null
+- 不用看：红黑树旋转细节（了解即可）
+
+### 3. B站视频：黑马 Java 基础教程 - 集合框架
+- 链接：https://www.bilibili.com/video/BV1fG4y1g76v/
+- 怎么用：只看 TreeSet 相关小节，作为补充理解
+- 重点看：TreeSet 排序演示
 
 ## 需要掌握
 

@@ -6,10 +6,26 @@
 
 ## 学习资源
 
-- JavaGuide：[LinkedList 源码分析](https://www.javaguide.cn/java/collection/linkedlist-source-code.html)
-- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-- B站视频：【不背八股】手写ArrayList&LinkedList（https://www.bilibili.com/video/BV1Kp5tzGEc5/）
-- 必看内容：Node 节点结构、头尾插入、node(int index) 查找过程
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：LinkedList 源码分析
+- 链接：https://www.javaguide.cn/java/collection/linkedlist-source-code.html
+- 怎么用：通读一遍，重点看「Node 节点结构」和「头尾插入/删除」
+- 重点看：
+  - Node 节点：item / prev / next
+  - linkFirst / linkLast 头尾插入
+  - node(int index) 按下标查找（为什么是 O(n)）
+- 不用看：红黑树相关（那是 TreeMap 的内容）
+
+### 2. JavaGuide：Java 集合常见面试题总结(上)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
+- 怎么用：学完源码后，只读 LinkedList 相关题目，用来检查自己会不会
+- 重点看：LinkedList vs ArrayList 的对比
+
+### 3. B站视频：手写ArrayList&LinkedList
+- 链接：https://www.bilibili.com/video/BV1Kp5tzGEc5/
+- 怎么用：看完源码分析后，跟着视频自己手写一遍 LinkedList
+- 重点看：手写 add / remove / 头尾插入
 
 ## 需要掌握
 

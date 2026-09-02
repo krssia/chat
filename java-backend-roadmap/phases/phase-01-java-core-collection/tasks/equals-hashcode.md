@@ -6,10 +6,29 @@
 
 ## 学习资源
 
-- JavaGuide：[Java 基础常见知识点&面试题总结(中)](https://www.cnblogs.com/javaguide/p/16372251.html)
-- 博客：[hashCode() 和 equals() 方法及使用规范](https://www.cnblogs.com/xfeiyun/p/17246204.html)
-- B站视频：【HashMap面试夺命连环20问】（https://www.bilibili.com/video/BV1S7pqeiEaz/）
-- 必看内容：equals/hashCode 约定、为什么 HashMap 先比较 hash 再比较 equals
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：Java 基础常见知识点&面试题总结(中)
+- 链接：https://www.cnblogs.com/javaguide/p/16372251.html
+- 怎么用：只读 equals / hashCode 相关小节
+- 重点看：
+  - equals 与 hashCode 的约定
+  - 为什么重写 equals 必须重写 hashCode
+  - 在 HashMap/HashSet 中的作用
+- 不用看：其他无关的 Java 基础题
+
+### 2. 博客：hashCode() 和 equals() 方法及使用规范
+- 链接：https://www.cnblogs.com/xfeiyun/p/17246204.html
+- 怎么用：通读一遍，重点看「正确实现」部分
+- 重点看：
+  - 正确实现 equals 的步骤
+  - 正确实现 hashCode 的方式
+  - 可变对象作为 key 的风险
+
+### 3. B站视频：HashMap面试夺命连环20问
+- 链接：https://www.bilibili.com/video/BV1S7pqeiEaz/
+- 怎么用：只看涉及 equals/hashCode 的题目
+- 重点看：为什么先比较 hash 再比较 equals
 
 ## 需要掌握
 

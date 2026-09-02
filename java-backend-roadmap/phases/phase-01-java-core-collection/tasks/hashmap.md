@@ -6,10 +6,27 @@
 
 ## 学习资源
 
-- JavaGuide：[HashMap 源码分析](https://javaguide.cn/java/collection/hashmap-source-code.html)
-- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-- B站视频：【HashMap面试夺命连环20问】（https://www.bilibili.com/video/BV1S7pqeiEaz/）
-- 必看内容：put / get / resize 流程、链表转红黑树、扩容机制
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：HashMap 源码分析
+- 链接：https://javaguide.cn/java/collection/hashmap-source-code.html
+- 怎么用：通读一遍，重点看 put / get / resize 三个流程
+- 重点看：
+  - 数据结构：数组 + 链表 + 红黑树
+  - put() 完整流程（hash → 定位 → 冲突 → 扩容）
+  - resize() 扩容机制
+  - 链表转红黑树的条件
+- 不用看：红黑树内部旋转细节，理解“为什么用红黑树”即可
+
+### 2. JavaGuide：Java 集合常见面试题总结(上)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
+- 怎么用：学完源码后，只读 HashMap 相关题目，用来检查自己会不会
+- 重点看：HashMap 高频面试题（为什么快、为什么线程不安全等）
+
+### 3. B站视频：HashMap面试夺命连环20问
+- 链接：https://www.bilibili.com/video/BV1S7pqeiEaz/
+- 怎么用：看完源码分析后看，用来巩固和查漏
+- 重点看：put 流程、扩容、红黑树、线程安全
 
 ## 需要掌握
 

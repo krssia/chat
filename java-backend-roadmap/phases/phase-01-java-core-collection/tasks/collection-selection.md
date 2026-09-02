@@ -6,10 +6,22 @@
 
 ## 学习资源
 
-- JavaGuide：[Java 集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-- JavaGuide：[Java 集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
-- B站视频：黑马 Java 基础教程 - 集合框架（https://www.bilibili.com/video/BV1fG4y1g76v/）
-- 必看内容：ArrayList vs LinkedList、HashMap vs LinkedHashMap vs TreeMap、集合选型
+> 每个资源都标了「怎么用」和「重点看哪里」，按顺序看，不要从头到尾硬啃。
+
+### 1. JavaGuide：Java 集合常见面试题总结(上)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-01.html
+- 怎么用：通读一遍，重点看「集合选型」相关题目
+- 重点看：ArrayList vs LinkedList、HashSet vs TreeSet
+
+### 2. JavaGuide：Java 集合常见面试题总结(下)
+- 链接：https://javaguide.cn/java/collection/java-collection-questions-02.html
+- 怎么用：通读一遍，重点看「Map 选型」相关题目
+- 重点看：HashMap vs LinkedHashMap vs TreeMap
+
+### 3. B站视频：黑马 Java 基础教程 - 集合框架
+- 链接：https://www.bilibili.com/video/BV1fG4y1g76v/
+- 怎么用：作为整体回顾，把前面所有集合串起来
+- 重点看：集合框架整体结构、选型思路
 
 ## 需要掌握
 
