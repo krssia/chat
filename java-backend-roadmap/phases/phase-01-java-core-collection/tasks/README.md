@@ -20,6 +20,7 @@
 - 学习资源之间要标明「资源关系」：哪个先看、哪个后看、哪个可以跳过，避免重复浪费时间
 - 避免使用电子书、实体书作为主要学习资源
 - 优先理解原理，再进行代码实践
+- 「手写」指看懂后自己写，不是边看视频/资料边抄；流程是：先看 → 自己写 → 对照补漏
 - 不要求死记源码，需要理解设计原因
 - 学习结果应该能够用于实际开发
 
@@ -29,17 +30,17 @@
 
 > 下面的清单是按类型分组的，**不是学习顺序**。请按下面的顺序学习，从简单到复杂、从基础到应用。
 
-| 顺序 | 任务 | 为什么排这里 |
-|---|---|---|
-| 1 | [arraylist.md](./arraylist.md) | 最简单，数组结构，先建立“集合是什么”的感觉 |
-| 2 | [linkedlist.md](./linkedlist.md) | 链表结构，和 ArrayList 对比着学，理解两种存储 |
-| 3 | [equals-hashcode.md](./equals-hashcode.md) | 哈希集合的地基，不先懂它，后面 HashSet/HashMap 会懵 |
-| 4 | [hash-algorithm.md](./hash-algorithm.md) | HashMap 的核心原理，先懂哈希定位 |
-| 5 | [hashmap.md](./hashmap.md) | 最重要的一个，前面两个基础打好了这里就顺 |
-| 6 | [hashset.md](./hashset.md) | 基于 HashMap，学完 HashMap 后几乎白送 |
-| 7 | [linkedhashmap.md](./linkedhashmap.md) | 在 HashMap 基础上加顺序，理解 LRU |
-| 8 | [treemap.md](./treemap.md) 和 [treeset.md](./treeset.md) | 红黑树，相对难，放后面 |
-| 9 | [collection-selection.md](./collection-selection.md) | 收尾，把前面所有知识串起来做选型 |
+| 顺序  | 任务                                                      | 为什么排这里                             |
+| --- | ------------------------------------------------------- | ---------------------------------- |
+| 1   | [arraylist.md](./arraylist.md)                          | 最简单，数组结构，先建立“集合是什么”的感觉             |
+| 2   | [linkedlist.md](./linkedlist.md)                        | 链表结构，和 ArrayList 对比着学，理解两种存储       |
+| 3   | [equals-hashcode.md](./equals-hashcode.md)              | 哈希集合的地基，不先懂它，后面 HashSet/HashMap 会懵 |
+| 4   | [hash-algorithm.md](./hash-algorithm.md)                | HashMap 的核心原理，先懂哈希定位               |
+| 5   | [hashmap.md](./hashmap.md)                              | 最重要的一个，前面两个基础打好了这里就顺               |
+| 6   | [hashset.md](./hashset.md)                              | 基于 HashMap，学完 HashMap 后几乎白送        |
+| 7   | [linkedhashmap.md](./linkedhashmap.md)                  | 在 HashMap 基础上加顺序，理解 LRU            |
+| 8   | [treemap.md](./treemap.md) 和 [treeset.md](./treeset.md) | 红黑树，相对难，放后面                        |
+| 9   | [collection-selection.md](./collection-selection.md)    | 收尾，把前面所有知识串起来做选型                   |
 
 ## 当前任务清单
 
