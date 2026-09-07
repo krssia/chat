@@ -8,8 +8,7 @@ public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAcce
 - `RandomAccess`：这是一个标志接口，表明实现这个接口的 `List` 集合是支持 **快速随机访问** 的。在 `ArrayList` 中，我们就可以通过元素的序号快速获取元素对象，这就是快速随机访问。
 - `Cloneable`：表明它支持通过 `clone()` 方法进行拷贝，`ArrayList#clone()` 返回的是浅拷贝[^2]。
 - `Serializable` : 表明它可以进行序列化操作，也就是可以将对象转换为字节流进行持久化存储或网络传输，非常方便。
-![[Pasted image 20260902093803.png]]
-
+![[arraylist-class-diagram.png]]
 ### Arraylist 与 LinkedList 区别？
 - **是否保证线程安全**： `ArrayList` 和 `LinkedList` 都是不同步的，也就是不保证线程安全
 - **底层数据结构：** `ArrayList` 底层使用的是 **`Object` 数组**；`LinkedList` 底层使用的是 **双向链表** 数据结构
