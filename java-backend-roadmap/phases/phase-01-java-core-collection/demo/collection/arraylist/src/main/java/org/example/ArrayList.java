@@ -42,7 +42,7 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public E removeAt(int index) {
-        if (index >= size || index < 0) {
+        if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
         E removeElement = (E)elementData[index];
@@ -57,7 +57,7 @@ public class ArrayList<E> implements List<E> {
     public boolean remove(E element) {
         for (int i = 0; i < size; i++) {
             if (Objects.equals(element, elementData[i])) {
-                this.removeAt(i);
+                removeAt(i);
                 return true;
             }
         }
@@ -66,17 +66,17 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public E set(int index, E element) {
-        if (index >= size || index < 0) {
+        if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
-        E oldvalue = (E) elementData[index];
+        E oldValue = (E) elementData[index];
         elementData[index] = element;
-        return oldvalue;
+        return oldValue;
     }
 
     @Override
     public E get(int index) {
-        if (index >= size || index < 0) {
+        if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
         return (E) elementData[index];
