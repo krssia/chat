@@ -6,7 +6,7 @@ public interface List<E> extends Iterable<E> {
 
     void add(E element, int index);
 
-    E remove(int index);
+    E removeAt(int index);
 
     boolean remove(E element);
 

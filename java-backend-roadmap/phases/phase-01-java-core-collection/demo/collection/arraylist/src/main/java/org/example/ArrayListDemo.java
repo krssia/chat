@@ -1,6 +1,5 @@
 package org.example;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 
@@ -27,7 +26,7 @@ public class ArrayListDemo {
         }
         // 触发ConcurrentModificationException
 //        for(String s : arrayList1) {
-//            arrayList1.remove(s);
+//            arrayList1.removeAt(s);
 //        }
         System.out.println(arrayList1);
     }

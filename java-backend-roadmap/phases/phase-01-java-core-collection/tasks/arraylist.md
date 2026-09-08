@@ -39,6 +39,7 @@
 - 链接：https://www.bilibili.com/video/BV1Kp5tzGEc5/
 - 怎么用：看完源码分析后，用这个视频「看懂 → 自己写 → 对照」来手写
 - 重点看：手写 add / remove / 扩容
+- https://github.com/implement-study/collection_framework.git
 
 ### 关于「手写」的正确做法
 > 手写 ≠ 边看视频边抄代码。正确流程：
