@@ -3,8 +3,6 @@ import org.example.ArrayList;
 import org.example.LinkedList;
 import org.junit.Test;
 
-import java.util.Iterator;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -25,9 +23,8 @@ public class CollectionTest {
             System.out.println(integer);
         }
 
-        Iterator<Integer> iterator = arrayList.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        for (Integer integer : arrayList) {
+            System.out.println(integer);
         }
     }
 
@@ -47,9 +44,8 @@ public class CollectionTest {
             System.out.println(integer);
         }
 
-        Iterator<Integer> iterator = arrayList.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        for (Integer integer : arrayList) {
+            System.out.println(integer);
         }
     }
 }
