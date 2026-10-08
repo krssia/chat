@@ -64,24 +64,25 @@ Focus:
 ## Learning Rules
 
 Learning model:
+- **Project-driven**: the Netty mini RPC project is the main line; learn foundations on demand
 - Milestone-based, not calendar-based
 - Server is the main line; Agent is the side line
-- One major knowledge topic per phase
 - Minimum daily habit is more important than a fixed schedule
+- Segmented learning is allowed: one resource can be split across sessions
 
 Each phase should contain:
 
 1. Learning goal
-2. Core concepts
-3. Notes
-4. Demo experiments
+2. Learning resources with how-to-use and focus guidance
+3. Core concepts
+4. Practice / demo
 5. Review summary
 
 Additional rules for this learner:
 
-- 先自己写 / 自己讲，再让 AI 检查
+- 核心代码自己写：AI 只做讲解、review、出题，不代写核心类
+- 参考官方示例的正确流程：先看 → 自己写 → 对照 → 删掉重写
 - 加班或状态差时，15～30 分钟复习也算完成当天学习
-- 优先使用工作里的真实任务做练习
 - 不背源码，要能解释设计原因
 
 ---
@@ -97,31 +98,32 @@ Build a minimum daily learning habit and inventory the learner's current work st
 
 ### Phase 1
 Topic: Java 核心与集合
-Status: In Progress
+Status: Deferred（改为项目驱动后按需回查）
 
 Goal:
-Independently complete collection tasks and explain core collection mechanisms.
+Collection knowledge is learned on demand when the Netty project needs it (connection management needs Map, equals/hashCode).
 
 ### Phase 2
 Topic: 并发与 JVM
-Status: Planned
+Status: Deferred（按需回查）
 
 Goal:
-Understand Java concurrency and JVM basics to prepare for Netty's threading model.
+Concurrency is learned when the project hits request-response pairing and thread pools.
 
 ### Phase 3
 Topic: 网络、操作系统与 IO 模型
-Status: Planned
+Status: Deferred（按需回查）
 
 Goal:
-Understand TCP/IP, Socket, and IO multiplexing so the learner can explain why Netty uses NIO.
+Network and IO knowledge is learned when the project needs custom protocol and packet framing.
 
 ### Phase 4
 Topic: Netty 深入与服务器项目
-Status: Planned
+Status: In Progress
 
 Goal:
-Learn Netty core concepts and complete a server project. **This is the jump milestone.**
+Build the Netty mini RPC project (M0～M10) as the main line. **This is the jump milestone.**
+Task doc: phases/phase-04-netty-server/tasks/netty-mini-rpc.md
 
 ### Phase 5
 Topic: RPC 与高性能服务扩展
@@ -157,14 +159,16 @@ Completed:
 - Phase 0 task created
 - Phase 0 inventory created
 - Phase 0 completed（按初学者/半入门水平确认薄弱点）
+- Phase 4 switched to project-driven approach
+- Netty mini RPC milestone plan created (M0～M10)
 
 Current Phase:
-Phase 1 - Java 核心与集合
+Phase 4 - Netty 深入与服务器项目（项目驱动）
 
 Next Tasks:
-1. Start HashMap task using the learning resources in the task doc
-2. Complete HashMap notes / demo / review
-3. Continue with ArrayList and HashSet tasks
+1. M0：新建工程，跑通最小 Echo 服务端 + 客户端
+2. M1：读懂自己写的 Echo，能讲出来
+3. M2：自定义协议 + 编解码 + 粘包拆包
 4. Update progress status after each milestone
 
 ---
